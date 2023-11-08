@@ -1,0 +1,8 @@
+﻿dbo;IntegrationEventLog;dbo_IntegrationEventLog;1797581442;1413580074;0x0000002500000EF00060;NULL;1;NULL;cdp;PK_IntegrationEventLog;NULL;2023-11-07 09:30:28.143;[EventId];[EventId], [Content], [CreationTime], [EventTypeName], [State], [TimesSent], [TransactionId]
+ordering;buyers;ordering_buyers;1893581784;981578535;0x00000026000008500044;NULL;1;NULL;cdp;PK_buyers;NULL;2023-11-07 09:31:06.983;[Id];[Id], [IdentityGuid], [Name]
+ordering;cardtypes;ordering_cardtypes;1989582126;1013578649;0x00000027000001680036;NULL;1;NULL;cdp;PK_cardtypes;NULL;2023-11-07 09:31:27.873;[Id];[Id], [Name]
+ordering;orderItems;ordering_orderItems;2085582468;1301579675;0x00000027000009A80062;NULL;1;NULL;cdp;PK_orderItems;NULL;2023-11-07 09:31:53.720;[Id];[Id], [Discount], [OrderId], [PictureUrl], [ProductId], [ProductName], [UnitPrice], [Units]
+ordering;orders;ordering_orders;34099162;1205579333;0x00000028000001A80099;NULL;1;NULL;cdp;PK_orders;NULL;2023-11-07 09:32:11.260;[Id];[Id], [BuyerId], [OrderDate], [OrderStatusId], [PaymentMethodId], [Description], [Address_City], [Address_Country], [Address_State], [Address_Street], [Address_ZipCode]
+ordering;orderstatus;ordering_orderStatus;130099504;1093578934;0x0000002800000A500036;NULL;1;NULL;cdp;PK_orderstatus;NULL;2023-11-07 09:32:19.437;[Id];[Id], [Name]
+ordering;paymentmethods;ordering_paymentmethods;226099846;1141579105;0x00000029000000C0006B;NULL;1;NULL;cdp;PK_paymentmethods;NULL;2023-11-07 09:32:28.560;[Id];[Id], [Alias], [BuyerId], [CardHolderName], [CardNumber], [CardTypeId], [Expiration]
+ordering;requests;ordering_requests;322100188;1349579846;0x00000029000009480044;NULL;1;NULL;cdp;PK_requests;NULL;2023-11-07 09:32:36.750;[Id];[Id], [Name], [Time]
