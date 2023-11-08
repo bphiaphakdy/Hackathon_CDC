@@ -1,0 +1,16 @@
+{
+    "name": "inventory-connector",
+    "config": {
+        "connector.class" : "io.debezium.connector.sqlserver.SqlServerConnector",
+        "tasks.max" : "1",
+        "topic.prefix" : "technical-logs",
+        "database.hostname" : "host.docker.internal",
+        "database.port" : "5433",
+        "database.user" : "sa",
+        "database.password" : "Pass@word",
+        "database.names" : "Microsoft.eShopOnContainers.Services.OrderingDb",
+        "schema.history.internal.kafka.bootstrap.servers" : "kafka:9092",
+        "schema.history.internal.kafka.topic": "schema-changes.inventory",
+        "database.encrypt": "false"
+    }
+}

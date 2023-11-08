@@ -1,0 +1,4 @@
+services:
+  curl-client:
+    image: curlimages/curl:latest
+    command: ["curl","Accept:application/json","Content-Type:application/json","http://localhost:8083/connectors/","register-sqlserver.json" ]
